@@ -1,0 +1,34 @@
+.title {
+    margin: 20px !important;
+}
+
+.title, .subtitle {
+    text-align: center;
+}
+
+.authors {
+    text-align: center;
+    margin: 1em;
+    }
+    .authors a {
+        text-decoration: none;
+        }
+        .authors a:hover {
+            text-decoration: underline;
+        }
+
+
+.affiliations {
+    text-align: center;
+    }
+    .affiliations:last-child {
+        margin-bottom: 1em;
+    }
+
+.refs {
+    margin: 20px;
+    }
+    .refs a {
+        margin-left: 2px;
+        margin-right: 2px;
+    }

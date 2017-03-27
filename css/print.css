@@ -1,0 +1,110 @@
+/* stylesheet for printing */
+
+/* fonts */
+@font-face {
+    font-family: 'AaarghNormal';
+    src: url('../fonts/Aaargh-webfont.eot');
+    src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/Aaargh-webfont.svg#AaarghNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProLightItalic';
+    src: url('../fonts/SourceSansPro-LightIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-LightIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-LightIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-LightIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-LightIt-webfont.svg#SourceSansProLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansCondensedLight';
+    src: url('../fonts/OpenSans-CondLight-webfont.eot');
+    src: url('../fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansCondensedLightItalic';
+    src: url('../fonts/OpenSans-CondLightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-CondLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-CondLightItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-CondLightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-CondLightItalic-webfont.svg#OpenSansCondensedLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/*Reset Style*/
+body {margin:0; padding:0; line-height: 1.4em; word-spacing:1px; letter-spacing:0.2px; font: 13px "Didot",Arial, Helvetica,"Lucida Grande", serif; color: #000;}
+
+/* hiding unnessasary elements */
+.no_print{
+    display:none;
+}
+
+
+
+#cv_wrap{
+    width:600px;
+    margin: 50px auto;
+}
+
+#cv_header{
+    text-align:right;
+}
+
+#contacts{
+    text-align:right;
+    }
+
+.section{
+    margin-top:30px;
+}
+
+.section_name{
+    font-size:20px;
+    font-family: 'Didot';
+}
+
+.details{
+    margin-left:40px;
+    font-family: 'Didot';
+    font-size:16px;
+}
+
+h2{
+    font-size:18px;
+    margin-left:-15px;
+}
+
+a{
+    text-decoration:underline;
+    color:#0e66bb;
+}
+
+.highlight{
+    font-weight:bold;
+}
+
+.colon_left{
+    font-weight:bold;
+}
+
+.colon_left{
+    
+}

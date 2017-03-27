@@ -1,0 +1,232 @@
+/* css reset styles */
+body, h1, h2, h3, h4, h5, h6 ,p ,address, blockquote, input{
+    margin:0;
+    padding:0;
+}
+
+/* document styles */
+@font-face {
+    font-family: 'AaarghNormal';
+    src: url('../fonts/Aaargh-webfont.eot');
+    src: url('../fonts/Aaargh-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Aaargh-webfont.woff') format('woff'),
+         url('../fonts/Aaargh-webfont.ttf') format('truetype'),
+         url('../fonts/Aaargh-webfont.svg#AaarghNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansProLightItalic';
+    src: url('../fonts/SourceSansPro-LightIt-webfont.eot');
+    src: url('../fonts/SourceSansPro-LightIt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/SourceSansPro-LightIt-webfont.woff') format('woff'),
+         url('../fonts/SourceSansPro-LightIt-webfont.ttf') format('truetype'),
+         url('../fonts/SourceSansPro-LightIt-webfont.svg#SourceSansProLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansCondensedLight';
+    src: url('../fonts/OpenSans-CondLight-webfont.eot');
+    src: url('../fonts/OpenSans-CondLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-CondLight-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-CondLight-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-CondLight-webfont.svg#OpenSansCondensedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'OpenSansCondensedLightItalic';
+    src: url('../fonts/OpenSans-CondLightItalic-webfont.eot');
+    src: url('../fonts/OpenSans-CondLightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/OpenSans-CondLightItalic-webfont.woff') format('woff'),
+         url('../fonts/OpenSans-CondLightItalic-webfont.ttf') format('truetype'),
+         url('../fonts/OpenSans-CondLightItalic-webfont.svg#OpenSansCondensedLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SourceSansProRegular';
+    src: url('../fonts/SourceSansPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body{
+    font: 100% Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 100%;
+    background-image: url('../imgs/dark_sharp_edges.png');
+    background-color:#222222;
+    color:#3c4755;
+}
+
+
+a{
+    text-decoration:underline;
+    /*text-decoration:none;*/
+    color:#3c4755;
+    transition: color 0.5s;
+    -moz-transition: color 0.5s; /* Firefox 4 */
+    -webkit-transition: color 0.5s; /* Safari and Chrome */
+    -o-transition: color 0.5s; /* Opera */
+    }
+    a:hover{
+        text-decoration:underline;
+        color:#0e66bb
+    }
+
+.highlight{
+    color:#0e66bb;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.center {
+    text-align: center;
+}
+
+
+#cv_wrap{
+    width:780px;
+    margin:66px auto;
+    background-image: url('../imgs/agsquare.png');
+    background-color:#ffffff;
+    border-top: 15px solid #0e66bb;
+    border-bottom: 15px solid #0e66bb;
+    position: relative;
+    }
+
+#cv_header{
+    padding:30px 40px;
+    background-image: url('../imgs/gplaypattern.png');
+    background-color:#f8f8f8;
+    border-bottom: 1px solid #dfdfdf;
+    width:700px;
+    position:relative;
+    top:0px;
+    }
+    #cv_header h1{
+        float:left;
+        margin:75px 20px;
+        font-family: 'SourceSansProRegular';
+        font-weight:100;
+        font-size: 50px;
+        color:#3c4755;
+        }
+        #cv_header h1 span{
+            color:black;
+            font-weight:900;
+        }
+    #cv_header #social{
+        float:right;
+        margin:82px 20px;
+        height:50px;
+    }
+
+#photo{
+    margin-top:50px;
+    height:122px;
+    width:122px;
+    background:url('../imgs/photo.png') no-repeat;
+    background-color: white;
+    background-position: 10px 10px;
+    border: 1px solid #dfdfdf;
+    float:left;
+}
+
+.section{
+    padding-top: 30px;
+    padding-bottom:30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-bottom: 1px solid #dfdfdf;
+}
+
+.section_name{
+    float:left;
+    width:30%;
+    font-family: 'SourceSansProLightItalic';
+    font-size:20px;
+}
+
+.details{
+    float:right;
+    width:65%;
+    line-height:1.5;
+    font-family: 'OpenSansCondensedLight';
+    }
+    .details h2{
+        font-size:20px;
+        padding-bottom:5px;
+    }
+    .details p+h2{
+        padding-top:15px;
+        margin-top:15px;
+        border-top: 1px solid #dfdfdf;
+    }
+
+.colon_left{
+    color:black;
+    font-weight:500;
+}
+
+.colon_right{
+    font-family: 'OpenSansCondensedLightItalic';
+    letter-spacing:1px;
+}
+
+.clear{
+    clear:both;
+}
+
+#navs{
+    /* default assume screen is small, hide navs */
+    display:none;
+    width:200px;
+    background-image: url('../imgs/linen.png');
+    background-color: #ffffff;
+    position:fixed;
+    top:150px;
+    left:10px;
+    padding-left:10px;
+    border-top: 10px solid #0e66bb;
+    border-bottom: 10px solid #0e66bb;
+    z-index:100;
+    *display:hidden; /* hacks for IE7 and below */
+    }
+
+    #navs ul{
+        list-style-type:none;
+        margin:0;
+        padding:0;
+        }
+        #navs ul li{
+            margin: 0px;
+            padding: 5px;
+            text-indent: 0;
+            float: left;
+            width: 90%;
+            font-family: 'SourceSansProLightItalic';
+            font-size:20px;
+        }
+        #navs ul li+li{
+            border-top: 1px solid #dfdfdf;
+        }
+
+@media screen and (min-width: 1250px){
+    #navs {
+        display:block;
+    }
+}
+
