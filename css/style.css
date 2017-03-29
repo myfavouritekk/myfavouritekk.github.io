@@ -138,7 +138,8 @@ a{
     margin-top:50px;
     height:122px;
     width:122px;
-    background:url('../imgs/photo.png') no-repeat;
+    background:url('../imgs/photo.jpg') no-repeat;
+    background-size: 101px 101px;
     background-color: white;
     background-position: 10px 10px;
     border: 1px solid #dfdfdf;
@@ -155,14 +156,14 @@ a{
 
 .section_name{
     float:left;
-    width:30%;
+    width:20%;
     font-family: 'SourceSansProLightItalic';
     font-size:20px;
 }
 
 .details{
     float:right;
-    width:65%;
+    width:75%;
     line-height:1.5;
     font-family: 'OpenSansCondensedLight';
     }
