@@ -7,8 +7,18 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://home.ustc.edu.cn/~kangk/</loc>
-  <lastmod>2012-11-13T03:08:50+00:00</lastmod>
+  <loc>http://kangk.ai/</loc>
+  <lastmod>2017-03-28T15:57:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://kangk.ai/download/resume_kk.pdf</loc>
+  <lastmod>2017-03-28T15:57:41+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://kangk.ai/download/cuvideo_poster_image2015.pdf</loc>
+  <lastmod>2017-03-28T15:57:41+00:00</lastmod>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
