@@ -1,0 +1,76 @@
+{
+    "projects": [
+        {
+            "name": "Object Detection in Videos with Tubelet Proposal Networks",
+            "id": "tpn",
+            "authors": [
+                "kkang", "hsli", "txiao", "wlouyang", "jjyan", "xhliu", "xgwang"
+            ],
+            "description": "",
+            "thumbnail": "",
+            "pdf": "",
+            "poster": "",
+            "video": "",
+            "publication": "CVPR",
+            "year": 2017,
+            "code": ""
+        }
+    ],
+    "authors": {
+        "kkang": {
+            "givenname": "Kai",
+            "familyname": "Kang",
+            "email": "kkang@ee.cuhk.edu.hk",
+            "photo": "",
+            "homepage": "http://kangk.ai"
+        },
+        "hsli": {
+            "givenname": "Hongsheng",
+            "familyname": "Li",
+            "email": "hsli@ee.cuhk.edu.hk",
+            "homepage": "http://www.ee.cuhk.edu.hk/~hsli/"
+        },
+        "txiao": {
+            "givenname": "Tong",
+            "familyname": "Xiao",
+            "email": "xiaotong@ee.cuhk.edu.hk",
+            "homepage": "http://xiaotong.me"
+        },
+        "wlouyang": {
+            "givenname": "Wanli",
+            "familyname": "Ouyang",
+            "email": "wlouyang@ee.cuhk.edu.hk",
+            "homepage": "http://www.ee.cuhk.edu.hk/~wlouyang/"
+        },
+        "jjyan": {
+            "givenname": "Junjie",
+            "familyname": "Yan",
+            "email": "yanjunjie@sensetime.com",
+            "homepage": "http://www.cbsr.ia.ac.cn/users/jjyan/main.htm"
+        },
+        "xhliu": {
+            "givenname": "Xihui",
+            "familyname": "Liu",
+            "email": "xh-liu13@mails.tsinghua.edu.cn",
+            "homepage": ""
+        },
+        "xgwang": {
+            "givenname": "Xiaogang",
+            "familyname": "Wang",
+            "email": "xgwang@ee.cuhk.edu.hk",
+            "homepage": "http://www.ee.cuhk.edu.hk/~xgwang/"
+        },
+        "jshao": {
+            "givenname": "Jing",
+            "familyname": "Shao",
+            "email": "jshao@ee.cuhk.edu.hk",
+            "homepage": "http://www.ee.cuhk.edu.hk/~jshao/"
+        },
+        "ccloy": {
+            "givenname": "Chen Change",
+            "familyname": "Loy",
+            "email": "ccloy@ie.cuhk.edu.hk",
+            "homepage": "http://personal.ie.cuhk.edu.hk/~ccloy/index.html"
+        }
+    }
+}
