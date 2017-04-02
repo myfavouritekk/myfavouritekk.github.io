@@ -3,16 +3,13 @@
 <html>
 <head>
     <title>
-        Kai Kang | Projects
+        Kai Kang | Publications
     </title>
     <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
     <!-- style for print -->
     <link rel="stylesheet" href="css/print.css" type="text/css" media="print" title="no title" charset="utf-8" />
     <meta name="keywords" content="kai,kang,kai kang,kang kai,ustc,igem, ustc-software, team leader, myfavouritekk, cuhk, deep learning, crowd, computer vision" />
-    <script src="js.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/jquery-3.2.0.min.js" type="text/javascript" charset="utf-8"></script>
-    <!-- script for sidebar -->
-    <script src="mootools-yui-compressed.js" type="text/javascript" charset="utf-8"></script>
     <!-- script for showing project -->
     <script src="js/project.js" type="text/javascript"></script>
     </head>
@@ -20,7 +17,7 @@
         <div id="cv_wrap">
             <div id="cv_header">
                 <div id = "photo"></div>
-                <h1><span>K</span>ai <span>K</span>ang | Projects</h1>
+                <h1><span>K</span>ai <span>K</span>ang | Publications</h1>
                 <div class='clear'></div>
             </div>
 
@@ -31,27 +28,14 @@
                         var authors = json.authors;
                         for (var i = 0; i < projects.length; i++) {
                             var project = projects[i];
-                            display_project(project, json.authors);
+                            displayProject(project, json.authors, json.publications);
                         }
                     });
                 </script>
-                <div id="tpn" class="section">
-                    <div class="thumbnail"></div>
-                    <div class="details">
-                        <h2 class="title">Object Detection in Videos with Tubelet Proposal Networks</h2>
-                        <p class="authors">Kai Kang, Hongsheng Li, Tong Xiao, Wanli Ouyang, Junjie Yan, Xihui Liu, Xiaogang Wang</p>
-                        <p class="publication">IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2017</p>
-                        <a href="" title="pdf">PDF</a>
-                        <a href="" title="pdf">Poster</a>
-                        <a href="" title="pdf">Video</a>
-                        <a href="" title="pdf">Code</a>
-                    </div>
-                    <div class="clear"></div>
                 </div>
 
 
 
-                <div id = "footer"></div>
             </div>
         </div>
     </body>
