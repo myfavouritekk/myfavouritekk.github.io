@@ -1,19 +1,132 @@
 {
     "projects": [
         {
-            "name": "Object Detection in Videos with Tubelet Proposal Networks",
+            "title": "Object Detection in Videos with Tubelet Proposal Networks",
             "id": "tpn",
             "authors": [
                 "kkang", "hsli", "txiao", "wlouyang", "jjyan", "xhliu", "xgwang"
             ],
             "description": "",
             "thumbnail": "",
-            "pdf": "",
+            "paper": "https://arxiv.org/pdf/1702.06355",
             "poster": "",
             "video": "",
-            "publication": "CVPR",
+            "publication": "cvpr",
             "year": 2017,
-            "code": ""
+            "code": "",
+            "projpage": ""
+        },
+        {
+            "title": "T-CNN: Tubelets with Convolutional Neural Networks for Object Detection from Videos",
+            "id": "tcnn",
+            "authors": [
+                "kkang", "hsli", "jjyan", "xyzeng", "Bin Yang", "txiao", "Cong Zhang", "Zhe Wang", "Ruohui Wang", "xgwang", "wlouyang"
+            ],
+            "description": "Winning project for ImageNet VID Challenge in 2015",
+            "thumbnail": "",
+            "paper": "https://arxiv.org/pdf/1604.02532",
+            "poster": "download/cuvideo_poster_image2015.pdf",
+            "video": "https://www.youtube.com/watch?v=XuR-Kabh1AY&feature=youtu.be",
+            "publication": "arxiv",
+            "year": 2016,
+            "code": "https://github.com/myfavouritekk/T-CNN",
+            "projpage": ""
+        },
+        {
+            "title": "Object Detection From Video Tubelets With Convolutional Neural Networks",
+            "id": "tubelet",
+            "authors": [
+                "kkang", "wlouyang", "hsli", "xgwang"
+            ],
+            "thumbnail": "",
+            "description": "CVPR spotlight presentation",
+            "paper": "http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Kang_Object_Detection_From_CVPR_2016_paper.pdf",
+            "poster": "",
+            "video": "https://www.youtube.com/watch?v=quNdDMKZxKE",
+            "publication": "cvpr",
+            "year": 2016,
+            "code": "https://github.com/myfavouritekk/vdetlib",
+            "projpage": ""
+        },
+        {
+            "title": "Slicing convolutional neural network for crowd video understanding",
+            "id": "slicing",
+            "authors": [
+                "jshao", "ccloy", "kkang", "xgwang"
+            ],
+            "thumbnail": "",
+            "description": "CVPR spotlight presentation",
+            "paper": "http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shao_Slicing_Convolutional_Neural_CVPR_2016_paper.pdf",
+            "poster": "",
+            "video": "",
+            "publication": "cvpr",
+            "year": 2016,
+            "code": "",
+            "projpage": ""
+        },
+        {
+            "title": "Crowded Scene Understanding by Deeply Learned Volumetric Slices",
+            "id": "3dslice",
+            "authors": [
+                "jshao", "ccloy", "kkang", "xgwang"
+            ],
+            "thumbnail": "",
+            "description": "",
+            "paper": "http://ieeexplore.ieee.org/abstract/document/7517290/",
+            "poster": "",
+            "video": "",
+            "publication": "tcsvt",
+            "year": 2016,
+            "code": "",
+            "projpage": ""
+        },
+        {
+            "title": "Data-driven Crowd Understanding: a Baseline for a Large-scale Crowd Dataset",
+            "id": "worldexpo",
+            "authors": [
+                "Cong Zhang", "kkang", "hsli", "xgwang", "Rong Xie", "Xiaokang Yang"
+            ],
+            "thumbnail": "",
+            "description": "",
+            "paper": "http://ieeexplore.ieee.org/abstract/document/7434020/",
+            "poster": "",
+            "video": "",
+            "publication": "tmm",
+            "year": 2016,
+            "code": "",
+            "projpage": ""
+        },
+        {
+            "title": "Deeply learned attributes for crowded scene understanding",
+            "id": "www",
+            "authors": [
+                "jshao", "kkang", "ccloy", "xgwang"
+            ],
+            "thumbnail": "",
+            "description": "CVPR oral presentation",
+            "paper": "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shao_Deeply_Learned_Attributes_2015_CVPR_paper.pdf",
+            "poster": "",
+            "video": "",
+            "publication": "cvpr",
+            "year": 2015,
+            "code": "",
+            "projpage": ""
+        },
+        {
+            "title": "Fully convolutional neural networks for crowd segmentation",
+            "id": "fcnn",
+            "authors": [
+                "kkang", "xgwang"
+            ],
+            "thumbnail": "",
+            "description": "",
+            "paper": "https://arxiv.org/pdf/1411.4464",
+            "poster": "",
+            "video": "",
+            "publication": "arxiv",
+            "year": 2014,
+            "code": "",
+            "projpage": ""
         }
     ],
     "authors": {
@@ -22,7 +135,8 @@
             "familyname": "Kang",
             "email": "kkang@ee.cuhk.edu.hk",
             "photo": "",
-            "homepage": "http://kangk.ai"
+            "homepage": "http://kangk.ai",
+            "highlight": true
         },
         "hsli": {
             "givenname": "Hongsheng",
@@ -71,6 +185,18 @@
             "familyname": "Loy",
             "email": "ccloy@ie.cuhk.edu.hk",
             "homepage": "http://personal.ie.cuhk.edu.hk/~ccloy/index.html"
+        },
+        "xyzeng": {
+            "givenname": "Xingyu",
+            "familyname": "Zeng",
+            "email": "xyzeng@ee.cuhk.edu.hk",
+            "homepage": "http://www.ee.cuhk.edu.hk/~xyzeng/"
         }
+    },
+    "publications": {
+        "cvpr": "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "tmm": "IEEE Transactions on Multimedia (TMM)",
+        "arxiv": "arXiv preprint",
+        "tcsvt": "IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)"
     }
 }
