@@ -152,6 +152,7 @@ a{
     margin-left: 40px;
     margin-right: 40px;
     border-bottom: 1px solid #dfdfdf;
+    position: relative;
 }
 
 .section_name{

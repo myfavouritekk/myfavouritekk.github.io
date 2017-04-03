@@ -7,7 +7,7 @@
                 "kkang", "hsli", "txiao", "wlouyang", "jjyan", "xhliu", "xgwang"
             ],
             "description": "",
-            "thumbnail": "",
+            "thumbnail": "imgs/tpn.png",
             "paper": "https://arxiv.org/pdf/1702.06355",
             "poster": "",
             "video": "",
@@ -23,7 +23,7 @@
                 "kkang", "hsli", "jjyan", "xyzeng", "Bin Yang", "txiao", "Cong Zhang", "Zhe Wang", "Ruohui Wang", "xgwang", "wlouyang"
             ],
             "description": "Winning project for ImageNet VID Challenge in 2015",
-            "thumbnail": "",
+            "thumbnail": "imgs/tcnn.png",
             "paper": "https://arxiv.org/pdf/1604.02532",
             "poster": "download/cuvideo_poster_image2015.pdf",
             "video": "https://www.youtube.com/watch?v=XuR-Kabh1AY&feature=youtu.be",
@@ -38,7 +38,7 @@
             "authors": [
                 "kkang", "wlouyang", "hsli", "xgwang"
             ],
-            "thumbnail": "",
+            "thumbnail": "imgs/tubelet.png",
             "description": "CVPR spotlight presentation",
             "paper": "http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Kang_Object_Detection_From_CVPR_2016_paper.pdf",
             "poster": "",
@@ -54,7 +54,7 @@
             "authors": [
                 "jshao", "ccloy", "kkang", "xgwang"
             ],
-            "thumbnail": "",
+            "thumbnail": "imgs/slicing.png",
             "description": "CVPR spotlight presentation",
             "paper": "http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Shao_Slicing_Convolutional_Neural_CVPR_2016_paper.pdf",
             "poster": "",
@@ -70,7 +70,7 @@
             "authors": [
                 "jshao", "ccloy", "kkang", "xgwang"
             ],
-            "thumbnail": "",
+            "thumbnail": "imgs/3dslice.png",
             "description": "",
             "paper": "http://ieeexplore.ieee.org/abstract/document/7517290/",
             "poster": "",
@@ -86,7 +86,7 @@
             "authors": [
                 "Cong Zhang", "kkang", "hsli", "xgwang", "Rong Xie", "Xiaokang Yang"
             ],
-            "thumbnail": "",
+            "thumbnail": "imgs/worldexpo.png",
             "description": "",
             "paper": "http://ieeexplore.ieee.org/abstract/document/7434020/",
             "poster": "",
@@ -102,7 +102,7 @@
             "authors": [
                 "jshao", "kkang", "ccloy", "xgwang"
             ],
-            "thumbnail": "",
+            "thumbnail": "imgs/www.jpg",
             "description": "CVPR oral presentation",
             "paper": "http://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Shao_Deeply_Learned_Attributes_2015_CVPR_paper.pdf",
             "poster": "",
@@ -118,7 +118,7 @@
             "authors": [
                 "kkang", "xgwang"
             ],
-            "thumbnail": "",
+            "thumbnail": "imgs/fcnn.png",
             "description": "",
             "paper": "https://arxiv.org/pdf/1411.4464",
             "poster": "",

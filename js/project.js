@@ -22,7 +22,7 @@ function displayProject(projObj, authorsDict, pubDict) {
 	var thumbnail = $("<div>");
 	thumbnail.addClass('thumbnail');
 	if (projObj.thumbnail) {
-		thumbImg = $("<img>");
+		thumbImg = $("<img width='95%'>");
 		thumbImg.attr('src', projObj.thumbnail);
 		thumbnail.append(thumbImg);
 	}
@@ -32,6 +32,7 @@ function displayProject(projObj, authorsDict, pubDict) {
 	// Add details
 	var details = $("<div>");
 	details.addClass('details');
+	details.addClass('project');
 	// add title
 	var title = $("<h1>");
 	title.addClass("title");

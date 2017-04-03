@@ -1,0 +1,11 @@
+.project.details {
+    width: 60%;
+}
+
+.thumbnail {
+    width: 35%;
+    float: left;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+ }
